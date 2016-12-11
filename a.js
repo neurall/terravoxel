@@ -37,7 +37,7 @@ function init() {
 
 //can=document.createElement('canvas'); can.width=instances; can.height=img.height
   THREE.ImageUtils.crossOrigin ='';
-  var texture = THREE.ImageUtils.loadTexture('http://i.imgur.com/FCKORxV.jpg'); 
+  var texture = THREE.ImageUtils.loadTexture('test.jpg'); 
     //var texture = new THREE.Texture(can);
     texture.magFilter = texture.minFilter = THREE.NearestFilter;
     texture.needsUpdate=true;
