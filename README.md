@@ -1,7 +1,23 @@
 # TerraVoxel ->  more voxel more Adidas
 
+Goal: Reach 1 Terravoxel at interactive speeds with current midrange hw.
+
+Current State:
 [67 Milion voxels Online Demo](https://neurall.github.io/terravoxel)
 Viewable around 10M on mine crappy old notebook Intel Hd 3000 embeded GPU in (i5 cpu from 2011)
+
+Bugs:
+
+Depending on camera angle depth sorting breaks
+Frustrum culling not working efficiently. When near surface still milions faces are being rendered.
+
+To Do:
+
+add loading of image tiles like google maps and move slow one 7mb image loading away as soon as possible.
+Or github guys will killme ;(
+
+Add more vogels to currently empty faces via parallax mapping thus reaching 1 Teraa voxel?.
+
 
 The aim of this project is to squeeze maximum number of cubes/voxels from HW.
 Currently it uses  one voxel per triangle transparency trick that come to my mind a day ago and hw instancing.
