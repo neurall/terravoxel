@@ -3,9 +3,9 @@ s=document.createElement('script');  s.src="//rawgit.com/mrdoob/three.js/master/
 s=document.createElement('script');  s.src="//rawgit.com/mrdoob/three.js/master/build/three.js";                        document.head.appendChild(s); s.onload=function(){
 s=document.createElement('script');  s.src="//rawgit.com/mrdoob/three.js/master/examples/js/controls/FlyControls.js";   document.head.appendChild(s); s.onload=function(){
 s=document.createElement('script');  s.src="//rawgit.com/mrdoob/three.js/master/examples/js/controls/OrbitControls.js"; document.head.appendChild(s); s.onload=function(){
-img=document.createElement('img'); img.src="test.jpg"; img.onload=function() {
+img=document.createElement('img'); img.src="test2.jpg"; img.onload=function() {
 clock    = new THREE.Clock(); var instrow = 32, instances = instrow*instrow, ovr=2.5,hei=4; container=document.createElement('div'); document.body.appendChild(container);
-stats    = new Stats(); container.appendChild( stats.dom ); scene  = new THREE.Scene(); 
+stats    = new Stats(); container.appendChild( stats.dom ); scene  = new THREE.Scene(); panel = stats.addPanel( new Stats.Panel( 'tri', '#f8f', '#212' ) );
 renderer = new THREE.WebGLRenderer({ antialias: true }); renderer.sortObjects=false; renderer.setClearColor( 0 ); renderer.setPixelRatio( window.devicePixelRatio );renderer.setSize( window.innerWidth, window.innerHeight );container.appendChild( renderer.domElement );
 camera   = new THREE.PerspectiveCamera( 20, (window.innerWidth / window.innerHeight), 0.1, 10000 );camera.rotation.set(-0.8,0,3);camera.position.set(0,0,500);camera.updateMatrix(); 
 controls = new THREE.FlyControls(camera,container); controls.movementSpeed = img.width/10; controls.rotateSpeed = 1.0; controls.zoomSpeed = 1.2; controls.panSpeed = 0.8; controls.rollSpeed = Math.PI / 12; controls.autoForward = false; controls.dragToLook = true;
@@ -27,5 +27,6 @@ ps='precision highp float;uniform sampler2D map;uniform vec4 pos;uniform vec4 w;
 	mesh     = new THREE.Mesh( geometry, material );mesh.position.set((x*(instrow/ovr))-(((instrow/ovr)*dx)/2), (y*(instrow/ovr))-(((instrow/ovr)*dy)/2), 0);mesh.updateMatrix();scene.add( mesh ); 
 }
 onresize=function( event ) {camera.aspect = window.innerWidth / window.innerHeight;camera.updateProjectionMatrix();renderer.setSize( window.innerWidth, window.innerHeight );}
-function animate() {var delta = clock.getDelta(); requestAnimationFrame(animate);renderer.render( scene, camera );controls.update(delta);stats.update();} animate();
+function animate() {var delta = clock.getDelta(); panel.update(renderer.info.render.faces,10000000);
+requestAnimationFrame(animate);renderer.render( scene, camera );controls.update(delta);stats.update();} animate();
 }}}}}}
