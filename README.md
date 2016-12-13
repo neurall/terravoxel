@@ -10,5 +10,5 @@ Ie in the middle of every triangle is essentially quad with tris on sides by mak
 Advantage is that we can push twice as much faces as oposed to classic 2 triangle per quad on any hw.
 The price we pay for this are depth sorting  zorder issues associated with transparency.
 
-Since sorting milions of tris on cpu is not feasible one sollution is flipping meshes and its uv coordinates 
-every 180 camera angle thus preserving back to from rendering order (classic painters algo)
+Since sorting milions of tris on cpu is not feasible one sollution is flipping meshes and its uv coordinates (TODO:)
+every 180 camera angle thus preserving back to front rendering order (classic painters algo)
