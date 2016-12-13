@@ -3,7 +3,7 @@ s=document.createElement('script');  s.src="//rawgit.com/mrdoob/three.js/master/
 s=document.createElement('script');  s.src="//rawgit.com/mrdoob/three.js/master/build/three.js";                        document.head.appendChild(s); s.onload=function(){
 s=document.createElement('script');  s.src="//rawgit.com/mrdoob/three.js/master/examples/js/controls/FlyControls.js";   document.head.appendChild(s); s.onload=function(){
 s=document.createElement('script');  s.src="//rawgit.com/mrdoob/three.js/master/examples/js/controls/OrbitControls.js"; document.head.appendChild(s); s.onload=function(){
-img=document.createElement('img'); img.src="test2.jpg"; img.onload=function() {
+img=document.createElement('img'); img.src="usa.jpg"; img.onload=function() {
 clock    = new THREE.Clock(); var instrow = 32, instances = instrow*instrow, ovr=2.5,hei=4; container=document.createElement('div'); document.body.appendChild(container);
 stats    = new Stats(); container.appendChild( stats.dom ); scene  = new THREE.Scene(); panel = stats.addPanel( new Stats.Panel( 'tri', '#f8f', '#212' ) );
 renderer = new THREE.WebGLRenderer({ antialias: true }); renderer.sortObjects=false; renderer.setClearColor( 0 ); renderer.setPixelRatio( window.devicePixelRatio );renderer.setSize( window.innerWidth, window.innerHeight );container.appendChild( renderer.domElement );
