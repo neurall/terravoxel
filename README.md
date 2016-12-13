@@ -1,6 +1,6 @@
 # TerraVoxel ->  more voxel more Adidas
 
-[67 Milion voxels Online Demo](https://neurall.github.io/gc)
+[67 Milion voxels Online Demo](https://neurall.github.io/terravoxel)
 Viewable around 10M on mine crappy old notebook Intel Hd 3000 embeded GPU in (i5 cpu from 2011)
 
 The aim of this project is to squeeze maximum number of cubes/voxels from HW.
