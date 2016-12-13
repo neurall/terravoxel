@@ -1,7 +1,7 @@
-# Gigacraft ->  more cubes more Adidas
+# TerraVoxel ->  more voxel more Adidas
 
-[Online Demo](https://neurall.github.io/gc)
-That squeezes 10 Milion flat quad voxels from mine crappy Intel Hd 3000 embeded GPU in (i5 cpu from 2011)
+[67 Milion voxels Online Demo](https://neurall.github.io/gc)
+Viewable around 10M on mine crappy old notebook Intel Hd 3000 embeded GPU in (i5 cpu from 2011)
 
 The aim of this project is to squeeze maximum number of cubes/voxels from HW.
 Currently it uses  one voxel per triangle transparency trick and hw instancing.
