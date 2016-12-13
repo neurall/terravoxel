@@ -1,6 +1,4 @@
-# Gigacraft
-
-Because more cubes = more Adidas ;).
+# Gigacraft ( more cubes more Adidas )
 
 [Online Demo]: https://neurall.github.io/gc/ that squeezes 10 Milion flat voxels from mine crappy Intel Hd 3000 embeded GPU in (i5 cpu from 2011)
 
