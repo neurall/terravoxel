@@ -3,7 +3,7 @@
 Goal: Reach 1 Terravoxel at interactive speeds with current midrange hw.
 
 Current State:
-[67 Milion voxels Online Demo](https://neurall.github.io/terravoxel)
+[67 Milion voxels Online Demo](https://terravoxel.appspot.com)
 Viewable around 10M on mine crappy old notebook Intel Hd 3000 embeded GPU in (i5 cpu from 2011)
 
 Bugs:
