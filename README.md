@@ -28,3 +28,10 @@ The price we pay for this are depth sorting  zorder issues associated with trans
 
 Since sorting milions of tris on cpu is not feasible one sollution is flipping meshes and its uv coordinates (TODO:)
 every 180 camera angle thus preserving back to front rendering order (classic painters algo)
+
+Future:
+
+I plan to collect further benchmarks on a lot of interesting mobile gpu.
+I will be able to do this all for free on many expensive devices. How?
+
+All thx to fantastic support of Open Source projects form wonderfull people at http://www.BrowserStack.com. 
