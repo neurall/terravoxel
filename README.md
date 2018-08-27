@@ -34,4 +34,4 @@ Future:
 I plan to collect further benchmarks on a lot of interesting mobile gpu.
 I will be able to do this all for free on many expensive devices. How?
 
-All thx to fantastic support of Open Source projects form wonderfull people at http://www.BrowserStack.com. 
+All thx to fantastic support of Open Source projects from wonderfull people at http://www.BrowserStack.com. 
