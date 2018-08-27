@@ -31,7 +31,6 @@ every 180 camera angle thus preserving back to front rendering order (classic pa
 
 Future:
 
-I plan to collect further benchmarks on a lot of interesting mobile gpu.
-I will be able to do this all for free on many expensive devices. How?
-
-All thx to fantastic support of Open Source projects from wonderfull people at ![](https://p14.zdusercontent.com/attachment/1015988/iWSa0r2vpJa3HJ3VIlARk6jV1?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..Ira7U_VYY-kqDfDa8EkR7g.ZYTZMzKdOzVpYaxAUB2KwkuTx0tgYP78xvtCrscYDszEdg7Rc4Kwn5hbyYE3x1R0imPi1GbfRf_DHG4DEFJ6jnRjFk0634XMcPdy53AXa5KFRGEXmVOC7f8V3wZJoFDZ5hRJ93qB7EjMMyfsysQzbPf49KGpU08mh8rTrCzc6Nm7PlQ6MWIe0VoAKS5CwXGQ8I7MpdDAuOoH25SmQ0_E5C7RzTePaUeGLsZ72abjJK89KP1X9FgAPHyCqtthkzRYbmFinNgWKp4NeLQ5NyfSvdQJo7_Tl-DL5-pwdV_jIko.V5Z-aZfxouelLed3CtdxRA)
+It can be interesting to optimize for / collect further benchmarks on a lot of interesting mobile gpu.
+I will be able to do this all for free on many expensive devices 
+thx to fantastic support of Open Source projects from wonderfull people at ![](https://p14.zdusercontent.com/attachment/1015988/iWSa0r2vpJa3HJ3VIlARk6jV1?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..Ira7U_VYY-kqDfDa8EkR7g.ZYTZMzKdOzVpYaxAUB2KwkuTx0tgYP78xvtCrscYDszEdg7Rc4Kwn5hbyYE3x1R0imPi1GbfRf_DHG4DEFJ6jnRjFk0634XMcPdy53AXa5KFRGEXmVOC7f8V3wZJoFDZ5hRJ93qB7EjMMyfsysQzbPf49KGpU08mh8rTrCzc6Nm7PlQ6MWIe0VoAKS5CwXGQ8I7MpdDAuOoH25SmQ0_E5C7RzTePaUeGLsZ72abjJK89KP1X9FgAPHyCqtthkzRYbmFinNgWKp4NeLQ5NyfSvdQJo7_Tl-DL5-pwdV_jIko.V5Z-aZfxouelLed3CtdxRA)
